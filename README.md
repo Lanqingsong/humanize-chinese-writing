@@ -1,28 +1,28 @@
 # humanize-writing
 
-> *Make AI write Chinese like an author, not a chatbot.*
+> *Make AI write like an author, not a chatbot.*
 
 [中文版](README_zh.md)
 
 ---
 
-`humanize-writing` is a Chinese-generation Skill for local AI tools — Codex, Claude Code, WorkBuddy, TRAE, and others. It adjusts the model's writing path *before* the first sentence lands, reducing answerer inertia, template-spliced structure, mechanical phrasing, and rhetorical excess — while preserving facts, register, constraints, and author intent.
+`humanize-writing` is a writing Skill for local AI tools — Codex, Claude Code, WorkBuddy, TRAE, and others. It adjusts the model's writing path *before* the first sentence lands, reducing answerer inertia, template-spliced structure, mechanical phrasing, and rhetorical excess — while preserving facts, register, constraints, and author intent.
 
-The "AI flavor" in Chinese text rarely comes from typos or bad grammar. The text can be complete, polite, and clear, yet still read like a stretched-out chat reply. The real fix usually happens before the writing begins: the model needs to first assess genre, audience, use case, and material through-line, then compose.
+The "AI flavor" in generated text rarely comes from typos or bad grammar. The text can be complete, polite, and clear, yet still read like a stretched-out chat reply. The real fix usually happens before the writing begins: the model needs to first assess genre, audience, use case, and material through-line, then compose.
 
-This project distills that pre-composition judgment into a reusable Skill. The goal: Chinese deliverables that feel like authored works, not extended answers.
+This project distills that pre-composition judgment into a reusable Skill. The goal: deliverables that feel like authored works, not extended answers.
 
 ## Use Cases
 
-Suitable for generating or revising these types of Chinese text:
+Suitable for generating or revising these types of text:
 
-- Technical blogs, WeChat articles, project introductions
+- Technical blogs, articles, project introductions
 - READMEs, API docs, developer documentation, user guides
 - Lecture notes, tutorials, learning materials
 - Client proposals, project reports, product descriptions
 - Reviews, analysis, long-form articles, narratives
 - **Academic papers**: journal/conference manuscript writing and polishing — covering register shift, terminology consistency, logical structure, and redundancy control
-- Any deliverable-oriented Chinese writing in Codex, Claude Code, WorkBuddy, or TRAE
+- Any deliverable-oriented writing in Codex, Claude Code, WorkBuddy, or TRAE
 
 Usage examples:
 
@@ -40,7 +40,7 @@ Use humanize-writing to review and rewrite this paper's method section following
 
 ## What Problem It Solves
 
-Many AI-generated Chinese drafts look correct yet read like over-polite replies. Common signs:
+Many AI-generated drafts look correct yet read like over-polite replies. Common signs:
 
 - Opening by acknowledging the request, closing by offering further assistance
 - Overusing corrective sentence frames: *"Not X, but Y"* / *"The key is not A, but B"*
@@ -150,7 +150,7 @@ Other tools supporting [Agent Skills](https://agentskills.io/) can also use this
 Call the Skill by name:
 
 ```text
-Use humanize-writing to write a beginner-friendly Chinese tutorial. Output a finished draft.
+Use humanize-writing to write a beginner-friendly tutorial. Output a finished draft.
 ```
 
 ```text
@@ -222,12 +222,12 @@ These support the mechanism descriptions of pre-training, instruction tuning, an
 
 Issues and PRs are welcome, especially for:
 
-- Common patterns of "AI flavor" in Chinese (including academic paper scenarios)
-- Genre examples: CSDN posts, READMEs, technical proposals, lecture scripts, academic papers
+- Common patterns of "AI flavor" (including academic paper scenarios)
+- Genre examples: blogs, READMEs, technical proposals, lecture scripts, academic papers
 - Integration experience with Codex, Claude Code, WorkBuddy, TRAE
 - New patterns the audit script could detect
 - Cases where current rules falsely flag legitimate writing
-- Better organizing approaches for deliverable-oriented Chinese writing
+- Better organizing approaches for deliverable-oriented writing
 
 ## Author
 
