@@ -1,6 +1,3 @@
-![Uploading 8d4c15d1-323a-4af6-a5a2-072a8c25decf.png…]()
-
-
 # humanize-writing
 
 让 AI 在第一次动笔时，就按“作品”的方式写中文。
@@ -28,15 +25,15 @@
 它尤其适合这类需求：
 
 ```text
-使用 humanize-chinese-writing 写一篇 CSDN 博客，直接给出可发布成稿。
+使用 humanize-writing 写一篇 CSDN 博客，直接给出可发布成稿。
 ```
 
 ```text
-使用 humanize-chinese-writing 重写 README，让文档脱离聊天上下文独立成立。
+使用 humanize-writing 重写 README，让文档脱离聊天上下文独立成立。
 ```
 
 ```text
-使用 humanize-chinese-writing 整理这份课程讲稿，按照学生理解顺序组织内容。
+使用 humanize-writing 整理这份课程讲稿，按照学生理解顺序组织内容。
 ```
 
 ---
@@ -188,19 +185,19 @@ flowchart LR
 个人 Skill 目录：
 
 ```text
-~/.codex/skills/humanize-chinese-writing
+~/.codex/skills/humanize-writing
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git "$env:USERPROFILE\.codex\skills\humanize-chinese-writing"
+git clone https://github.com/Lanqingsong/humanize-writing.git "$env:USERPROFILE\.codex\skills\humanize-writing"
 ```
 
 macOS / Linux：
 
 ```bash
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git ~/.codex/skills/humanize-chinese-writing
+git clone https://github.com/Lanqingsong/humanize-writing.git ~/.codex/skills/humanize-writing
 ```
 
 ### Claude Code
@@ -220,13 +217,13 @@ Claude Code 支持 Agent Skills。个人 Skill 放在：
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git "$env:USERPROFILE\.claude\skills\humanize-chinese-writing"
+git clone https://github.com/Lanqingsong/humanize-writing.git "$env:USERPROFILE\.claude\skills\humanize-writing"
 ```
 
 macOS / Linux：
 
 ```bash
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git ~/.claude/skills/humanize-chinese-writing
+git clone https://github.com/Lanqingsong/humanize-writing.git ~/.claude/skills/humanize-writing
 ```
 
 参考：[Claude Code Skills 文档](https://code.claude.com/docs/en/skills)
@@ -236,19 +233,19 @@ git clone https://github.com/Lanqingsong/humanize-chinese-writing.git ~/.claude/
 个人 Skill 目录：
 
 ```text
-~/.workbuddy/skills/humanize-chinese-writing
+~/.workbuddy/skills/humanize-writing
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git "$env:USERPROFILE\.workbuddy\skills\humanize-chinese-writing"
+git clone https://github.com/Lanqingsong/humanize-writing.git "$env:USERPROFILE\.workbuddy\skills\humanize-writing"
 ```
 
 macOS / Linux：
 
 ```bash
-git clone https://github.com/Lanqingsong/humanize-chinese-writing.git ~/.workbuddy/skills/humanize-chinese-writing
+git clone https://github.com/Lanqingsong/humanize-writing.git ~/.workbuddy/skills/humanize-writing
 ```
 
 ### TRAE
@@ -272,29 +269,29 @@ TRAE 支持自定义 Rules 和 Agent。不同版本的 Skills 入口可能变化
 可以直接点名 Skill：
 
 ```text
-使用 humanize-chinese-writing 写一篇面向初学者的中文教程，直接给出成稿。
+使用 humanize-writing 写一篇面向初学者的中文教程，直接给出成稿。
 ```
 
 ```text
-使用 humanize-chinese-writing 写项目介绍。先建立文章主线，不要沿我的提示逐条回答。
+使用 humanize-writing 写项目介绍。先建立文章主线，不要沿我的提示逐条回答。
 ```
 
 ```text
-使用 humanize-chinese-writing 完成这段故事，保持原有视角和语气。
+使用 humanize-writing 完成这段故事，保持原有视角和语气。
 ```
 
 ```text
-使用 humanize-chinese-writing 重写 README，让它能脱离聊天上下文独立成立。
+使用 humanize-writing 重写 README，让它能脱离聊天上下文独立成立。
 ```
 
 各工具的显式调用语法可能是：
 
 ```text
-$humanize-chinese-writing
+$humanize-writing
 ```
 
 ```text
-/humanize-chinese-writing
+/humanize-writing
 ```
 
 没有显式调用机制时，也可以将 `SKILL.md` 作为用户规则或项目规则载入。
