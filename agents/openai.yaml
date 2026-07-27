@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文自然写作"
+  short_description: "约束AI首次中文输出，减少模板腔、回答者惯性和提纲拼接感"
+  default_prompt: "使用 $humanize-chinese-writing 直接生成自然中文成稿，先建立作品结构，再完成首次输出。"
